@@ -1,0 +1,10 @@
+{
+    "tenantId": "put_your_tenant_id_here",
+    "subscriptionId": "put_your_subscription_id_here",
+    "clientId": "put_your_client_id_here",
+    "clientSecret": "put_your_client_secret_here",
+    "jobs": [
+        { "type": "vm", "operation": "restart", "resourceGroup": "DojoLabs", "resource": "appserver1" }
+		{ "type": "vm", "operation": "restart", "resourceGroup": "DojoLabs", "resource": "dbserver" }
+    ]
+}
